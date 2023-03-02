@@ -1,10 +1,15 @@
+import React from 'react'
+import Style from "./App.module.scss"
+ const App = () => {
+  const button = document.querySelector('button');
 
-
-const App=()=>{
-
-  return <div>
-     <div>分支1第一次提交</div>
-     <div>分支1修改</div>
-  </div>
+  button?.addEventListener('click', () => console.log('Clicked!'));
+  return (
+    <div className={Style.App}>
+      <div className={Style.rangePicker}>
+      <button>button</button>
+      </div>
+    </div>
+  )
 }
-export default App 
+export default App
