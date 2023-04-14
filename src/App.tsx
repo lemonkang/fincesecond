@@ -4,9 +4,7 @@ export const App = () => {
   const [count, setCount] = useState(0)
   return ( 
     <div>
-   <div>mster </div>
-    <h2>masterxiugia </h2>
-    <div>master进行修改</div>
+   <button>master butth</button>
   
 
   </div>
