@@ -4,7 +4,7 @@ export const App = () => {
   const [count, setCount] = useState(0)
   return ( 
     <div>
-   <button>master butth</button>
+   <button>maasdaser butth</button>
   
 
   </div>
